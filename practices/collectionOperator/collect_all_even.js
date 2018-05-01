@@ -1,7 +1,7 @@
 'use strict';
 
 function collect_all_even(collection) {
-  var even=new Array[];
+  var even=new Array();
   var n=-1;
   for(var i=0;i<collection.length;i++)
   {
