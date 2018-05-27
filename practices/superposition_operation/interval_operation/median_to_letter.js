@@ -1,16 +1,19 @@
 'use strict';
 
 function median_to_letter(collection) {
-  let sum=0;
-  for(let i=collection[0];i<collection.length;i++){
-    sum+=collection[i];
+  let average=0;
+  let len=collection.length;
+  if(len%2===0){
+    average=Math.ceil((collection[len/2]+collection[len/2-1])/2);
+    }
+  else{
+    average=Math.floor(len/2);
   }
-  let average=Math.ceil(sum/collection.length);
   if(average<=26){
     return String.fromCharCode(average+96);
   }
   else{
-    return String.fromCharCode((average-1)/26+96,(average-1)%26+97);
+    return String.fromCharCode((average-1)/26+96,average%26+96);
   }
 }
 
