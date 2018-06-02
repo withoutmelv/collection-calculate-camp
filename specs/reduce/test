@@ -1,0 +1,2 @@
+var chain = '1->4->6->2->3->10->9->8->11->20->19->30';
+console.log(typeof(chain));

@@ -1,5 +1,5 @@
 function count_same_elements(collection) {
- /* let number=1;
+  let number=1;
   let remember=0;
   for(let i=0;i<collection.length;i++){
     if(collection[i]!==collection[i+1]){
@@ -23,7 +23,7 @@ function count_same_elements(collection) {
     }
   }
   return outPut;
-  */
+
 }
 
 module.exports = count_same_elements;
