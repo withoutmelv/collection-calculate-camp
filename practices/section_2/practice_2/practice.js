@@ -21,7 +21,7 @@ function count_same_elements(collection) {
            'key':collection[i],
            'count':num,
          }
-       )
+       );
      }
       num=1;
     }
